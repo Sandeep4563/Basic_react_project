@@ -1,0 +1,113 @@
+.mainContainer{
+width: 100vw;  
+min-height: 100vh;
+background-image: url(./image/food_img.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.nav_conatiner{
+  height: 150px;
+  background-color:#323334;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.nav-logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav-logo img{
+  height: 25px;
+  width: 150px;
+}
+
+.nav-logo input{
+  outline: none;
+  border: none;
+  padding: 7px;
+  width: 200px;
+  font-size: 15px;
+  font-weight: 500;
+  border: solid red 2px;
+  border-radius: 6px;
+}
+
+.nav_conatiner ul{
+  display: flex;
+  gap: 14px;
+  position: absolute;
+  top: 100px;
+}
+
+.nav_conatiner ul a{
+  color: white;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 5px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.mainCard{
+  height: 167px;
+  width: 340px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 7px;
+  background-color:rgba(0, 0, 0, 0.4);
+   backdrop-filter: blur(5px);
+}
+
+.mainCard .left-card{
+  padding-top: 10px;
+}
+
+.mainCard .left-card img{
+  
+  height: 133px;
+  width: 133px;
+  border-radius: 50%;
+}
+
+.mainCard .right-card{
+  padding-left: 30px;
+  font-size: 14px;
+  color: black;
+  padding-top: 20px;
+  color: white;
+}
+
+.mainCard .cardcost{
+  position: absolute;
+  right: 0;
+  bottom:0;
+  padding:8px;
+  background-color: red;
+  color: white;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-component{
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+}
+ 
+
