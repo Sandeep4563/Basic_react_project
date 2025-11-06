@@ -1,0 +1,50 @@
+.main-content{
+    width: 400px;
+ 
+}
+
+
+.form-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  
+}
+
+
+.form-btn .two_btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}   
+
+.form_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+   
+   
+}
+.form_sec .form_control{
+    position: relative;
+    width: 100%;
+}
+
+.form_control :where(input,textarea){
+    width: 100%;
+    resize: none;
+    padding-top: 5px;
+    outline: none;
+    padding-left: 10px;
+}
+
+.form_control label{
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: white;
+    padding: 0 10px;
+}
